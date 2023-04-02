@@ -1,0 +1,154 @@
+---
+title: "descriptive_analysis"
+author: "Axelle"
+date: "2023-03-31"
+output: word_document
+---
+## 1. Correlation matrix and descriptive information
+
+1. Libraries
+```{r}
+library(readxl)
+library('corrr')
+library(ggcorrplot)
+library("factoextra")
+```
+
+2. Importation des données
+```{r}
+data_2020_finale_base <- read_excel("data_2020_finale.xlsx")
+```
+3. Extract weight data
+```{r}
+w_pop <- data_2020_finale$Population
+w_surf <- data_2020_finale$surface_polygone
+data_2020_finale <- subset(data_2020_finale, select = -Population)
+data_2020_finale <- subset(data_2020_finale, select = -surface_polygone)
+data_2020_finale <- subset(data_2020_finale, select = -ID)
+```
+
+```{r}
+data_2020_finale
+as.data.frame(data_2020_finale)
+data_2020_finale[is.na(data_2020_finale)] <- 0
+
+```
+3. Correlation matrix 
+```{r}
+corr_matrix <- cor(data_2020_finale)
+ggcorrplot(corr_matrix)
+```
+
+5. Description ACP
+```{r}
+data.pca <- princomp(corr_matrix)
+summary(data.pca)
+```
+
+6. Explenation of the component by the variable
+```{r}
+data.pca$loadings[, 1:7]
+```
+7. PCA
+```{r}
+fviz_eig(data.pca, addlabels = TRUE)
+
+# Graph of the variables
+fviz_pca_var(data.pca, col.var = "black")
+
+fviz_cos2(data.pca, choice = "var", axes = 1)
+fviz_cos2(data.pca, choice = "var", axes = 2)
+fviz_cos2(data.pca, choice = "var", axes = 3)
+fviz_cos2(data.pca, choice = "var", axes = 4)
+fviz_cos2(data.pca, choice = "var", axes = 5)
+fviz_cos2(data.pca, choice = "var", axes = 6)
+
+fviz_pca_var(data.pca, col.var = "cos2",gradient.cols = c("black", "orange", "green"),repel = TRUE)
+```
+8. KMeans
+```{r}
+fviz_nbclust(data.pca$loadings[, 1:7], kmeans, method = 'wss')
+```
+```{r}
+fviz_nbclust(data.pca$loadings[, 1:7], kmeans, method = 'silhouette')
+```
+
+```{r}
+fviz_nbclust(data.pca$loadings[, 1:7], kmeans, method = 'gap_stat')
+```
+```{r}
+k = 8
+kmeans_data = kmeans(data.pca$loadings[, 1:7], centers = k, nstart = 50)
+fviz_cluster(kmeans_data, data = data.pca$loadings[, 1:7])
+```
+```{r}
+k = 3
+kmeans_data = kmeans(data.pca$loadings[, 1:7], centers = k, nstart = 50)
+fviz_cluster(kmeans_data, data = data.pca$loadings[, 1:7])
+```
+```{r}
+k = 5
+kmeans_data = kmeans(data.pca$loadings[, 1:7], centers = k, nstart = 50)
+fviz_cluster(kmeans_data, data = data.pca$loadings[, 1:7])
+```
+```{r}
+# ACP
+pca <- prcomp(data_2020_finale, center = TRUE, scale. = TRUE)
+pca_data <- as.data.frame(pca$x)
+pca_data
+```
+
+
+```{r}
+k = 5
+kmeans_data = kmeans(pca_data[, 1:5], centers = k, nstart = 50)
+fviz_cluster(kmeans_data, data = pca_data[, 1:5])
+```
+
+
+```{r}
+kmeans_data
+
+
+```
+
+## weighted PCA 
+
+```{r}
+# Load the "stats" package
+library(stats)
+
+# Center and scale the data
+scaled_data <- scale(data_2020_finale, center = TRUE, scale = TRUE)
+
+# Define the diagonal weight matrix
+weight_matrix <- diag(sqrt(w_pop))
+
+# Perform weighted PCA
+weighted_pca_pop <- prcomp(weight_matrix %*% scaled_data, center = FALSE)
+weighted_pca_pop
+```
+
+```{r}
+k = 5
+kmeans_data = kmeans(weighted_pca_pop$rotation[, 1:7], centers = k, nstart = 50)
+fviz_cluster(kmeans_data, data = weighted_pca_pop$rotation[, 1:7])
+```
+```{r}
+# Center and scale the data
+scaled_data <- scale(data_2020_finale, center = TRUE, scale = TRUE)
+
+# Define the diagonal weight matrix
+w_surf[is.na(w_surf)] <- 0
+weight_matrix <- diag(sqrt(w_surf))
+
+# Perform weighted PCA
+weighted_pca_surf <- prcomp(weight_matrix %*% scaled_data, center = FALSE)
+weighted_pca_surf
+```
+
+```{r}
+k = 5
+kmeans_data = kmeans(weighted_pca_surf$rotation[, 1:7], centers = k, nstart = 50)
+fviz_cluster(kmeans_data, data = weighted_pca_surf$rotation[, 1:7])
+```
