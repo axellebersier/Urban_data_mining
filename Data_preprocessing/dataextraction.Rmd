@@ -1,0 +1,344 @@
+---
+title: "Data_extraction and municipalities extraction"
+output:
+  pdf_document: default
+  word_document: default
+date: "2023-03-20"
+---
+1. Importation des librairies et des packages
+```{r}
+library(readxl)
+library(readr)
+library("ggplot2")
+library(dplyr)
+library("ggpubr")
+```
+
+## Start with 2020 with the surface data 
+2. Enregistrer les données
+```{r}
+mutations <- read_csv("data/mutations_2010.csv")
+data_2020 <- read_excel("data/2020_datac.xlsx",sheet = "env_2013_2018")
+```
+
+```{r}
+# destination, nouveaux numéros de communes
+data_2020_commune <- left_join(
+  data_2020,
+  mutations,
+  by = c("ID" = "ID")
+)
+
+data_2020_commune
+```
+3. Remplacer les NA des communes qui n'ont pas eu de mutations par leur ID et nom de base 
+```{r}
+data_2020_commune_groupes<-data_2020_commune
+data_2020_commune_groupes$new_no_commune <- ifelse(is.na(data_2020_commune_groupes$new_no_commune), data_2020_commune_groupes$ID, data_2020_commune_groupes$new_no_commune)
+
+data_2020_commune_groupes$new_commune <- ifelse(is.na(data_2020_commune_groupes$new_commune), data_2020_commune_groupes$name_commune, data_2020_commune_groupes$new_commune)
+
+n <- unique(data_2020_commune_groupes$new_no_commune)
+length(n)
+```
+
+```{r}
+# Agréger les données par ID en moyennant les valeurs des attributs pour chaque ID
+vars_to_aggregate <- c("p_infrastructure","p_forested","p_agriculture","p_improductible","surface_polygone")
+aggregated_df <- data.frame()
+
+for (var in vars_to_aggregate) {
+  # Aggregate the data by the current variable
+  print(var)
+  agg_data <- aggregate(data_2020_commune_groupes[[var]], by = list(data_2020_commune_groupes[['new_no_commune']]), FUN = mean)
+  
+  # Rename the columns of the aggregated data
+  names(agg_data) <- c("x",var)
+  
+  # Append the aggregated data to the aggregated data frame
+  
+  aggregated_df <- c(aggregated_df, agg_data)
+  
+}
+
+c_2020 <-cbind(aggregated_df$x,aggregated_df$p_infrastructure,aggregated_df$p_forested,aggregated_df$p_agriculture,aggregated_df$p_improductible,aggregated_df$surface_polygone)
+colnames(c_2020)<-c("ID","p_infrastructure","p_forested","p_agriculture","p_improductible","surface_polygone")
+```
+```{r}
+c_2020
+```
+Refaire la même chose pour les données démographiques et les ajouter à la matrice
+```{r}
+
+data_2020_a <- read_excel("data/2020_datac.xlsx",sheet = "2020_demographic")
+data_2020_a$ID <- as.numeric(data_2020_a$ID)
+mutations <- read_csv("data/mutations_2010.csv")
+
+# destination, nouveaux numéros de communes
+data_2020_commune_a <- left_join(
+  data_2020_a,
+  mutations,
+  by = c("ID" = "ID")
+)
+
+data_2020_commune_a
+```
+```{r}
+data_2020_commune_groupes<-data_2020_commune_a
+data_2020_commune_groupes$new_no_commune <- ifelse(is.na(data_2020_commune_groupes$new_no_commune), data_2020_commune_groupes$ID, data_2020_commune_groupes$new_no_commune)
+
+data_2020_commune_groupes$new_commune <- ifelse(is.na(data_2020_commune_groupes$new_commune), data_2020_commune_groupes$name_commune, data_2020_commune_groupes$new_commune)
+
+n_a <- unique(data_2020_commune_groupes$new_no_commune)
+length(n_a)
+data_2020_commune_groupes
+```
+n'a pas fonctionné : "p_nationality_aq"
+```{r}
+# Agréger les données par ID en moyennant les valeurs des attributs pour chaque ID
+vars_to_aggregate <- c("natural_growth_1000","density","dependency_ratio","migration_intern","migration","p_employment","primary_sector","secondary_sector","tertiary_sector","p_social_assistance","p_new_buildings","p_new_housings","p_cinema","p_museum","p_culture_institution","size_households","p_new_entreprise","p_weddings","p_strangers","p_cultural_place","p_individual_houses","Population")
+
+aggregated_df <- data.frame()
+
+for (var in vars_to_aggregate) {
+  # Aggregate the data by the current variable
+  print(var)
+  agg_data <- aggregate(data_2020_commune_groupes[[var]], by = list(data_2020_commune_groupes[['new_no_commune']]), FUN = mean)
+  
+  # Rename the columns of the aggregated data
+  names(agg_data) <- c("x",var)
+  
+  # Append the aggregated data to the aggregated data frame
+  
+  aggregated_df <- c(aggregated_df, agg_data)
+  
+}
+
+```
+```{r}
+
+c_2020_b <-cbind(aggregated_df$x,aggregated_df$natural_growth_1000,aggregated_df$density,aggregated_df$dependency_ratio,aggregated_df$migration_intern,aggregated_df$migration,aggregated_df$p_employment,aggregated_df$primary_sector,aggregated_df$secondary_sector,aggregated_df$tertiary_sector,aggregated_df$p_social_assistance,aggregated_df$p_new_buildings,aggregated_df$p_new_housings,aggregated_df$p_cinema,aggregated_df$p_museum,aggregated_df$p_culture_institution,aggregated_df$size_households,aggregated_df$p_new_entreprise,aggregated_df$p_weddings,aggregated_df$p_strangers,aggregated_df$p_cultural_place,aggregated_df$p_individual_houses,aggregated_df$Population)
+
+colnames(c_2020_b)<-  c("ID","natural_growth_1000","density","dependency_ratio","migration_intern","migration","p_employment","primary_sector","secondary_sector","tertiary_sector","p_social_assistance","p_new_buildings","p_new_housings","p_cinema","p_museum","p_culture_institution","size_households","p_new_entreprise","p_weddings","p_strangers","p_cultural_place","p_individual_houses","Population")
+
+```
+
+```{r}
+# destination, nouveaux numéros de communes
+
+data_2020_finale <- left_join(
+  as.data.frame(c_2020_b),
+  as.data.frame(c_2020),
+  by = c("ID" = "ID")
+)
+
+data_2020_finale
+```
+Faire un prétraitement des données d'emploi pour les transformer en variable de densité
+```{r}
+data_2020_emploi <- read_excel("data/2020_datac.xlsx",sheet = "emploi")
+data_2020_emploi$ID <- as.numeric(data_2020_a$ID)
+mutations <- read_csv("data/mutations_2010.csv")
+
+# destination, nouveaux numéros de communes
+data_2020_commune <- left_join(
+  data_2020_emploi,
+  mutations,
+  by = c("ID" = "ID")
+)
+data_2020_commune
+```
+```{r}
+data_2020_commune_groupes<-data_2020_commune
+
+data_2020_commune_groupes$new_no_commune <- ifelse(is.na(data_2020_commune_groupes$new_no_commune), data_2020_commune_groupes$ID, data_2020_commune_groupes$new_no_commune)
+
+vars_to_aggregate <- c("n_employ")
+
+agg_data_emploi <- aggregate(data_2020_commune_groupes[["n_employ"]], by = list(data_2020_commune_groupes[['new_no_commune']]), FUN = mean)
+
+#agg_data_emploi<- cbind(agg_data_emploi$ID,agg_data_emploi$employ)
+colnames(agg_data_emploi)<- c("ID", "employ")
+```
+
+
+```{r}
+data_2020_finale <- left_join(
+  as.data.frame(data_2020_finale),
+  as.data.frame(agg_data_emploi),
+  by = c("ID" = "ID")
+)
+data_2020_finale
+```
+
+```{r}
+data_2020_finale$primary_sector<- as.numeric(data_2020_finale$primary_sector)
+data_2020_finale$primary_sector <- data_2020_finale$primary_sector/data_2020_finale$employ
+data_2020_finale$secondary_sector <- data_2020_finale$secondary_sector/data_2020_finale$employ
+data_2020_finale$tertiary_sector <- data_2020_finale$tertiary_sector/data_2020_finale$employ
+
+data_2020_finale <- subset(data_2020_finale, select = -employ)
+```
+
+Rajouter les coordonnées
+```{r}
+#data_2020_coor <- read_excel("data/2020_datac.xlsx",sheet = "coor")
+library(readxl)
+data_2020_coor <- read_excel("data/data_en_vrac/1.environnement/coor_suisses.xlsx")
+data_2020_coor$ID <- as.numeric(data_2020_coor$BFS_NUMMER)
+mutations <- read_csv("data/mutations_2010.csv")
+
+# destination, nouveaux numéros de communes
+data_2020_commune <- left_join(
+  data_2020_coor,
+  mutations,
+  by = c("ID" = "ID")
+)
+data_2020_commune
+```
+```{r}
+data_2020_commune_groupes<-data_2020_commune
+
+data_2020_commune_groupes$new_no_commune <- ifelse(is.na(data_2020_commune_groupes$new_no_commune), data_2020_commune_groupes$ID, data_2020_commune_groupes$new_no_commune)
+
+vars_to_aggregate <- c("y_lat","x_lat")
+
+aggregated_df <- data.frame()
+
+for (var in vars_to_aggregate) {
+  # Aggregate the data by the current variable
+  print(var)
+  agg_data <- aggregate(data_2020_commune_groupes[[var]], by = list(data_2020_commune_groupes[['new_no_commune']]), FUN = mean)
+  
+  # Rename the columns of the aggregated data
+  names(agg_data) <- c("x",var)
+  
+  # Append the aggregated data to the aggregated data frame
+  
+  aggregated_df <- c(aggregated_df, agg_data)
+  
+}
+
+c_2020_coor <- cbind(aggregated_df$x,aggregated_df$x_lat,aggregated_df$y_lat)
+colnames(c_2020_coor) <-c("ID","lat","long")
+
+data_2020_finale <- left_join(
+  as.data.frame(data_2020_finale),
+  as.data.frame(c_2020_coor),
+  by = c("ID" = "ID")
+)
+data_2020_finale
+```
+
+Rajouter le revenu moyen de 2019 
+```{r}
+data_2020_income <- read_excel("data/2020_datac.xlsx",sheet = "2019_rev_moy")
+data_2020_income$ID <- as.numeric(data_2020_income$ID)
+mutations <- read_csv("data/mutations_2010.csv")
+
+# destination, nouveaux numéros de communes
+data_2020_commune <- left_join(
+  data_2020_income,
+  mutations,
+  by = c("ID" = "ID")
+)
+data_2020_commune
+```
+```{r}
+data_2020_commune_groupes<-data_2020_commune
+
+data_2020_commune_groupes$new_no_commune <- ifelse(is.na(data_2020_commune_groupes$new_no_commune), data_2020_commune_groupes$ID, data_2020_commune_groupes$new_no_commune)
+
+vars_to_aggregate <- c("net_income_h")
+
+agg_data_income <- aggregate(data_2020_commune_groupes[["net_income_h"]], by = list(data_2020_commune_groupes[['new_no_commune']]), FUN = mean)
+
+#agg_data_emploi<- cbind(agg_data_emploi$ID,agg_data_emploi$employ)
+colnames(agg_data_income)<- c("ID", "net_income_h")
+```
+
+```{r}
+data_2020_finale <- left_join(
+  as.data.frame(data_2020_finale),
+  as.data.frame(agg_data_income),
+  by = c("ID" = "ID")
+)
+data_2020_finale
+```
+Pour l'analyse nous utilisons des données de densité. 
+
+Ainsi, il faut encore modifier les variables lat, long pour avoir des variables de densité 
+et extraire surface polygone et population qui seront utilisées comme le poids et non pour la comparaison des variables
+
+1. extraire les valeurs de poids
+
+```{r}
+#population <- data_2020_finale$Population
+#surface <- data_2020_finale$surface_polygone
+
+#data_2020_finale <- subset(data_2020_finale, select = -Population)
+#data_2020_finale <- subset(data_2020_finale, select = -surface_polygone)
+```
+2. lat, long en fonction du max-min pour normaliser 
+```{r}
+library(BBmisc)
+
+data <- data_2020_finale$lat
+# method = range for normalisation 
+n_lat= normalize(data, method = "range", range = c(0, 1))
+
+data_2020_finale$lat <- n_lat
+
+
+data_l <- data_2020_finale$long
+# method = range for normalisation 
+n_long= normalize(data_l, method = "range", range = c(0, 1))
+
+data_2020_finale$long <- n_long
+```
+
+
+
+
+```{r}
+colnames <- colnames(data_2020_finale)
+
+# Créer des plots de densité pour chaque colonne
+par(mfrow = c(3,3))
+for (i in 2:10) {
+  density_plot <- density(data_2020_finale[, i])
+  plot(density_plot, main = colnames[i])
+}
+```
+```{r}
+colnames <- colnames(data_2020_finale)
+
+# Créer des plots de densité pour chaque colonne
+par(mfrow = c(3,3))
+for (i in 11:19) {
+  density_plot <- density(data_2020_finale[, i])
+  plot(density_plot, main = colnames[i])
+}
+```
+```{r}
+colnames <- colnames(data_2020_finale)
+
+# Créer des plots de densité pour chaque colonne
+par(mfrow = c(3,3))
+for (i in 20:22) {
+  density_plot <- density(data_2020_finale[, i])
+  plot(density_plot, main = colnames[i])
+}
+```
+
+```{r}
+for (i in 2:ncol(data_2020_finale)) {
+  print(shapiro.test(data_2020_finale[, i]))
+}
+```
+
+```{r}
+library(readr)
+write.csv(data_2020_finale, "data_2020_finale.csv")
+```
+

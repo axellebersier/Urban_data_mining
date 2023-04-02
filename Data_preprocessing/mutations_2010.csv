@@ -1,0 +1,902 @@
+ID,commune,no_mut_nvlle_cmne,date_entree_ch,no_mut_ancienne_cmne,new_no_commune,new_commune
+329,Langenthal,2773,2010-01-01,3949,329,Langenthal
+540,Jegenstorf,2774,2010-01-01,3413,540,Jegenstorf
+619,Oberdiessbach,2775,2010-01-01,3414,619,Oberdiessbach
+756,Twann-Tüscherz,2776,2010-01-01,NA,756,Twann-Tüscherz
+301,Aarberg,2844,2010-01-01,NA,301,Aarberg
+302,Bargen (BE),2845,2010-01-01,NA,302,Bargen (BE)
+303,Grossaffoltern,2846,2010-01-01,NA,303,Grossaffoltern
+304,Kallnach,2847,2010-01-01,3294,304,Kallnach
+305,Kappelen,2848,2010-01-01,NA,305,Kappelen
+306,Lyss,2849,2010-01-01,3176,306,Lyss
+307,Meikirch,2981,2010-01-01,NA,307,Meikirch
+308,Niederried bei Kallnach,2850,2010-01-01,3294,304,Kallnach
+309,Radelfingen,2851,2010-01-01,NA,309,Radelfingen
+310,Rapperswil (BE),2852,2010-01-01,3295,310,Rapperswil (BE)
+311,Schüpfen,2853,2010-01-01,NA,311,Schüpfen
+312,Seedorf (BE),2854,2010-01-01,NA,312,Seedorf (BE)
+321,Aarwangen,2890,2010-01-01,NA,321,Aarwangen
+322,Auswil,2891,2010-01-01,NA,322,Auswil
+323,Bannwil,2892,2010-01-01,NA,323,Bannwil
+324,Bleienbach,2893,2010-01-01,NA,324,Bleienbach
+325,Busswil bei Melchnau,2894,2010-01-01,NA,325,Busswil bei Melchnau
+326,Gondiswil,2895,2010-01-01,NA,326,Gondiswil
+328,Kleindietwil,2896,2010-01-01,3177,332,Madiswil
+330,Leimiswil,2897,2010-01-01,3177,332,Madiswil
+331,Lotzwil,2898,2010-01-01,NA,331,Lotzwil
+332,Madiswil,2899,2010-01-01,3177,332,Madiswil
+333,Melchnau,2900,2010-01-01,NA,333,Melchnau
+334,Obersteckholz,2901,2010-01-01,3949,329,Langenthal
+335,Oeschenbach,2902,2010-01-01,NA,335,Oeschenbach
+336,Reisiswil,2903,2010-01-01,NA,336,Reisiswil
+337,Roggwil (BE),2904,2010-01-01,NA,337,Roggwil (BE)
+338,Rohrbach,2905,2010-01-01,NA,338,Rohrbach
+339,Rohrbachgraben,2906,2010-01-01,NA,339,Rohrbachgraben
+340,Rütschelen,2907,2010-01-01,NA,340,Rütschelen
+341,Schwarzhäusern,2908,2010-01-01,NA,341,Schwarzhäusern
+342,Thunstetten,2909,2010-01-01,NA,342,Thunstetten
+344,Ursenbach,2910,2010-01-01,NA,344,Ursenbach
+345,Wynau,2911,2010-01-01,NA,345,Wynau
+351,Bern,2982,2010-01-01,NA,351,Bern
+352,Bolligen,2983,2010-01-01,NA,352,Bolligen
+353,Bremgarten bei Bern,2984,2010-01-01,NA,353,Bremgarten bei Bern
+354,Kirchlindach,2985,2010-01-01,NA,354,Kirchlindach
+355,Köniz,2986,2010-01-01,NA,355,Köniz
+356,Muri bei Bern,2987,2010-01-01,NA,356,Muri bei Bern
+357,Oberbalm,2988,2010-01-01,NA,357,Oberbalm
+358,Stettlen,2989,2010-01-01,NA,358,Stettlen
+359,Vechigen,2990,2010-01-01,NA,359,Vechigen
+360,Wohlen bei Bern,2991,2010-01-01,NA,360,Wohlen bei Bern
+361,Zollikofen,2992,2010-01-01,NA,361,Zollikofen
+362,Ittigen,2993,2010-01-01,NA,362,Ittigen
+363,Ostermundigen,2994,2010-01-01,NA,363,Ostermundigen
+371,Biel/Bienne,2826,2010-01-01,NA,371,Biel/Bienne
+372,Evilard,2827,2010-01-01,NA,372,Evilard
+381,Arch,2855,2010-01-01,NA,381,Arch
+382,Büetigen,2856,2010-01-01,NA,382,Büetigen
+383,Büren an der Aare,2857,2010-01-01,NA,383,Büren an der Aare
+384,Busswil bei Büren,2858,2010-01-01,3176,306,Lyss
+385,Diessbach bei Büren,2859,2010-01-01,NA,385,Diessbach bei Büren
+386,Dotzigen,2860,2010-01-01,NA,386,Dotzigen
+387,Lengnau (BE),2828,2010-01-01,NA,387,Lengnau (BE)
+388,Leuzigen,2861,2010-01-01,NA,388,Leuzigen
+389,Meienried,2862,2010-01-01,NA,389,Meienried
+390,Meinisberg,2829,2010-01-01,NA,390,Meinisberg
+391,Oberwil bei Büren,2863,2010-01-01,NA,391,Oberwil bei Büren
+392,Pieterlen,2830,2010-01-01,NA,392,Pieterlen
+393,Rüti bei Büren,2864,2010-01-01,NA,393,Rüti bei Büren
+394,Wengi,2865,2010-01-01,NA,394,Wengi
+401,Aefligen,2939,2010-01-01,NA,401,Aefligen
+402,Alchenstorf,2940,2010-01-01,NA,402,Alchenstorf
+403,Bäriswil,2995,2010-01-01,NA,403,Bäriswil
+404,Burgdorf,2941,2010-01-01,NA,404,Burgdorf
+405,Ersigen,2942,2010-01-01,3441,405,Ersigen
+406,Hasle bei Burgdorf,2943,2010-01-01,NA,406,Hasle bei Burgdorf
+407,Heimiswil,2944,2010-01-01,NA,407,Heimiswil
+408,Hellsau,2945,2010-01-01,NA,408,Hellsau
+409,Hindelbank,2946,2010-01-01,3950,409,Hindelbank
+410,Höchstetten,2947,2010-01-01,NA,410,Höchstetten
+411,Kernenried,2948,2010-01-01,NA,411,Kernenried
+412,Kirchberg (BE),2949,2010-01-01,NA,412,Kirchberg (BE)
+413,Koppigen,2950,2010-01-01,NA,413,Koppigen
+414,Krauchthal,2951,2010-01-01,NA,414,Krauchthal
+415,Lyssach,2952,2010-01-01,NA,415,Lyssach
+416,Mötschwil,2953,2010-01-01,3950,409,Hindelbank
+417,Niederösch,2954,2010-01-01,3441,405,Ersigen
+418,Oberburg,2955,2010-01-01,NA,418,Oberburg
+419,Oberösch,2956,2010-01-01,3441,405,Ersigen
+420,Rüdtligen-Alchenflüh,2957,2010-01-01,NA,420,Rüdtligen-Alchenflüh
+421,Rumendingen,2958,2010-01-01,NA,421,Rumendingen
+422,Rüti bei Lyssach,2959,2010-01-01,NA,422,Rüti bei Lyssach
+423,Willadingen,2960,2010-01-01,NA,423,Willadingen
+424,Wynigen,2961,2010-01-01,NA,424,Wynigen
+431,Corgémont,2777,2010-01-01,NA,431,Corgémont
+432,Cormoret,2778,2010-01-01,NA,432,Cormoret
+433,Cortébert,2779,2010-01-01,NA,433,Cortébert
+434,Courtelary,2780,2010-01-01,NA,434,Courtelary
+435,La Ferrière,2781,2010-01-01,NA,435,La Ferrière
+436,La Heutte,2782,2010-01-01,3429,450,Péry-La Heutte
+437,Mont-Tramelan,2783,2010-01-01,NA,437,Mont-Tramelan
+438,Orvin,2784,2010-01-01,NA,438,Orvin
+439,Péry,2785,2010-01-01,3429,450,Péry-La Heutte
+440,Plagne,2786,2010-01-01,3411,449,Sauge
+441,Renan (BE),2787,2010-01-01,NA,441,Renan (BE)
+442,Romont (BE),2788,2010-01-01,NA,442,Romont (BE)
+443,Saint-Imier,2789,2010-01-01,NA,443,Saint-Imier
+444,Sonceboz-Sombeval,2790,2010-01-01,NA,444,Sonceboz-Sombeval
+445,Sonvilier,2791,2010-01-01,NA,445,Sonvilier
+446,Tramelan,2792,2010-01-01,NA,446,Tramelan
+447,Vauffelin,2793,2010-01-01,3411,449,Sauge
+448,Villeret,2794,2010-01-01,NA,448,Villeret
+491,Brüttelen,2866,2010-01-01,NA,491,Brüttelen
+492,Erlach,2867,2010-01-01,NA,492,Erlach
+493,Finsterhennen,2868,2010-01-01,NA,493,Finsterhennen
+494,Gals,2869,2010-01-01,NA,494,Gals
+495,Gampelen,2870,2010-01-01,NA,495,Gampelen
+496,Ins,2871,2010-01-01,NA,496,Ins
+497,Lüscherz,2872,2010-01-01,NA,497,Lüscherz
+498,Müntschemier,2873,2010-01-01,NA,498,Müntschemier
+499,Siselen,2874,2010-01-01,NA,499,Siselen
+500,Treiten,2875,2010-01-01,NA,500,Treiten
+501,Tschugg,2876,2010-01-01,NA,501,Tschugg
+502,Vinelz,2877,2010-01-01,NA,502,Vinelz
+532,Bangerten,2878,2010-01-01,3440,310,Rapperswil (BE)
+533,Bätterkinden,2962,2010-01-01,NA,533,Bätterkinden
+534,Büren zum Hof,2996,2010-01-01,3412,538,Fraubrunnen
+535,Deisswil bei Münchenbuchsee,2997,2010-01-01,NA,535,Deisswil bei Münchenbuchsee
+536,Diemerswil,2998,2010-01-01,NA,536,Diemerswil
+537,Etzelkofen,2999,2010-01-01,3412,538,Fraubrunnen
+538,Fraubrunnen,3000,2010-01-01,3412,538,Fraubrunnen
+539,Grafenried,3001,2010-01-01,3412,538,Fraubrunnen
+541,Iffwil,3002,2010-01-01,NA,541,Iffwil
+542,Limpach,3003,2010-01-01,3412,538,Fraubrunnen
+543,Mattstetten,3004,2010-01-01,NA,543,Mattstetten
+544,Moosseedorf,3005,2010-01-01,NA,544,Moosseedorf
+545,Mülchi,3006,2010-01-01,3412,538,Fraubrunnen
+546,Münchenbuchsee,3007,2010-01-01,NA,546,Münchenbuchsee
+547,Münchringen,3008,2010-01-01,3413,540,Jegenstorf
+548,Ruppoldsried,2879,2010-01-01,3295,310,Rapperswil (BE)
+549,Schalunen,3009,2010-01-01,3412,538,Fraubrunnen
+550,Scheunen,3010,2010-01-01,3413,540,Jegenstorf
+551,Urtenen-Schönbühl,3011,2010-01-01,NA,551,Urtenen-Schönbühl
+552,Utzenstorf,2963,2010-01-01,NA,552,Utzenstorf
+553,Wiggiswil,3012,2010-01-01,NA,553,Wiggiswil
+554,Wiler bei Utzenstorf,2964,2010-01-01,NA,554,Wiler bei Utzenstorf
+555,Zauggenried,3013,2010-01-01,3412,538,Fraubrunnen
+556,Zielebach,2965,2010-01-01,NA,556,Zielebach
+557,Zuzwil (BE),3014,2010-01-01,NA,557,Zuzwil (BE)
+561,Adelboden,3119,2010-01-01,NA,561,Adelboden
+562,Aeschi bei Spiez,3120,2010-01-01,NA,562,Aeschi bei Spiez
+563,Frutigen,3121,2010-01-01,NA,563,Frutigen
+564,Kandergrund,3122,2010-01-01,NA,564,Kandergrund
+565,Kandersteg,3123,2010-01-01,NA,565,Kandersteg
+566,Krattigen,3124,2010-01-01,NA,566,Krattigen
+567,Reichenbach im Kandertal,3125,2010-01-01,NA,567,Reichenbach im Kandertal
+571,Beatenberg,3132,2010-01-01,NA,571,Beatenberg
+572,Bönigen,3133,2010-01-01,NA,572,Bönigen
+573,Brienz (BE),3134,2010-01-01,NA,573,Brienz (BE)
+574,Brienzwiler,3135,2010-01-01,NA,574,Brienzwiler
+575,Därligen,3136,2010-01-01,NA,575,Därligen
+576,Grindelwald,3137,2010-01-01,NA,576,Grindelwald
+577,Gsteigwiler,3138,2010-01-01,NA,577,Gsteigwiler
+578,Gündlischwand,3139,2010-01-01,NA,578,Gündlischwand
+579,Habkern,3140,2010-01-01,NA,579,Habkern
+580,Hofstetten bei Brienz,3141,2010-01-01,NA,580,Hofstetten bei Brienz
+581,Interlaken,3142,2010-01-01,NA,581,Interlaken
+582,Iseltwald,3143,2010-01-01,NA,582,Iseltwald
+584,Lauterbrunnen,3144,2010-01-01,NA,584,Lauterbrunnen
+585,Leissigen,3145,2010-01-01,NA,585,Leissigen
+586,Lütschental,3146,2010-01-01,NA,586,Lütschental
+587,Matten bei Interlaken,3147,2010-01-01,NA,587,Matten bei Interlaken
+588,Niederried bei Interlaken,3148,2010-01-01,NA,588,Niederried bei Interlaken
+589,Oberried am Brienzersee,3149,2010-01-01,NA,589,Oberried am Brienzersee
+590,Ringgenberg (BE),3150,2010-01-01,NA,590,Ringgenberg (BE)
+591,Saxeten,3151,2010-01-01,NA,591,Saxeten
+592,Schwanden bei Brienz,3152,2010-01-01,NA,592,Schwanden bei Brienz
+593,Unterseen,3153,2010-01-01,NA,593,Unterseen
+594,Wilderswil,3154,2010-01-01,NA,594,Wilderswil
+602,Arni (BE),3015,2010-01-01,NA,602,Arni (BE)
+603,Biglen,3016,2010-01-01,NA,603,Biglen
+604,Bleiken bei Oberdiessbach,3017,2010-01-01,3414,619,Oberdiessbach
+605,Bowil,3018,2010-01-01,NA,605,Bowil
+606,Brenzikofen,3019,2010-01-01,NA,606,Brenzikofen
+607,Freimettigen,3020,2010-01-01,NA,607,Freimettigen
+608,Grosshöchstetten,3021,2010-01-01,3584,608,Grosshöchstetten
+609,Häutligen,3022,2010-01-01,NA,609,Häutligen
+610,Herbligen,3023,2010-01-01,NA,610,Herbligen
+611,Kiesen,3024,2010-01-01,NA,611,Kiesen
+612,Konolfingen,3025,2010-01-01,NA,612,Konolfingen
+613,Landiswil,3026,2010-01-01,NA,613,Landiswil
+614,Linden,3027,2010-01-01,NA,614,Linden
+615,Mirchel,3028,2010-01-01,NA,615,Mirchel
+616,Münsingen,3029,2010-01-01,3296,616,Münsingen
+617,Niederhünigen,3030,2010-01-01,NA,617,Niederhünigen
+620,Oberthal,3031,2010-01-01,NA,620,Oberthal
+622,Oppligen,3032,2010-01-01,NA,622,Oppligen
+623,Rubigen,3033,2010-01-01,NA,623,Rubigen
+624,Schlosswil,3034,2010-01-01,3584,608,Grosshöchstetten
+625,Tägertschi,3035,2010-01-01,3456,616,Münsingen
+626,Walkringen,3036,2010-01-01,NA,626,Walkringen
+627,Worb,3037,2010-01-01,NA,627,Worb
+628,Zäziwil,3038,2010-01-01,NA,628,Zäziwil
+629,Oberhünigen,3039,2010-01-01,NA,629,Oberhünigen
+630,Allmendingen,3040,2010-01-01,NA,630,Allmendingen
+631,Trimstein,3041,2010-01-01,3296,616,Münsingen
+632,Wichtrach,3042,2010-01-01,NA,632,Wichtrach
+661,Clavaleyres,3043,2010-01-01,3957,2275,Murten
+662,Ferenbalm,3044,2010-01-01,NA,662,Ferenbalm
+663,Frauenkappelen,3045,2010-01-01,NA,663,Frauenkappelen
+664,Golaten,3046,2010-01-01,3626,304,Kallnach
+665,Gurbrü,3047,2010-01-01,NA,665,Gurbrü
+666,Kriechenwil,3048,2010-01-01,NA,666,Kriechenwil
+667,Laupen,3049,2010-01-01,NA,667,Laupen
+668,Mühleberg,3050,2010-01-01,NA,668,Mühleberg
+669,Münchenwiler,3051,2010-01-01,NA,669,Münchenwiler
+670,Neuenegg,3052,2010-01-01,NA,670,Neuenegg
+671,Wileroltigen,3053,2010-01-01,NA,671,Wileroltigen
+681,Belprahon,2795,2010-01-01,NA,681,Belprahon
+682,Bévilard,2796,2010-01-01,3430,717,Valbirse
+683,Champoz,2797,2010-01-01,NA,683,Champoz
+684,Châtelat,2798,2010-01-01,3431,716,Petit-Val
+687,Corcelles (BE),2799,2010-01-01,NA,687,Corcelles (BE)
+690,Court,2800,2010-01-01,NA,690,Court
+691,Crémines,2801,2010-01-01,NA,691,Crémines
+692,Eschert,2802,2010-01-01,NA,692,Eschert
+694,Grandval,2803,2010-01-01,NA,694,Grandval
+696,Loveresse,2804,2010-01-01,NA,696,Loveresse
+697,Malleray,2805,2010-01-01,3430,717,Valbirse
+699,Monible,2806,2010-01-01,3431,716,Petit-Val
+700,Moutier,2807,2010-01-01,NA,700,Moutier
+701,Perrefitte,2808,2010-01-01,NA,701,Perrefitte
+702,Pontenet,2809,2010-01-01,3430,717,Valbirse
+703,Reconvilier,2810,2010-01-01,NA,703,Reconvilier
+704,Roches (BE),2811,2010-01-01,NA,704,Roches (BE)
+706,Saicourt,2812,2010-01-01,NA,706,Saicourt
+707,Saules (BE),2813,2010-01-01,NA,707,Saules (BE)
+708,Schelten,2814,2010-01-01,NA,708,Schelten
+709,Seehof,2815,2010-01-01,NA,709,Seehof
+710,Sornetan,2816,2010-01-01,3431,716,Petit-Val
+711,Sorvilier,2817,2010-01-01,NA,711,Sorvilier
+712,Souboz,2818,2010-01-01,3431,716,Petit-Val
+713,Tavannes,2819,2010-01-01,NA,713,Tavannes
+715,Rebévelier,2820,2010-01-01,NA,715,Rebévelier
+721,Diesse,2821,2010-01-01,3415,726,Plateau de Diesse
+722,Lamboing,2822,2010-01-01,3415,726,Plateau de Diesse
+723,La Neuveville,2823,2010-01-01,NA,723,La Neuveville
+724,Nods,2824,2010-01-01,NA,724,Nods
+725,Prêles,2825,2010-01-01,3415,726,Plateau de Diesse
+731,Aegerten,2831,2010-01-01,NA,731,Aegerten
+732,Bellmund,2832,2010-01-01,NA,732,Bellmund
+733,Brügg,2833,2010-01-01,NA,733,Brügg
+734,Bühl,2880,2010-01-01,NA,734,Bühl
+735,Epsach,2881,2010-01-01,NA,735,Epsach
+736,Hagneck,2882,2010-01-01,NA,736,Hagneck
+737,Hermrigen,2883,2010-01-01,NA,737,Hermrigen
+738,Jens,2884,2010-01-01,NA,738,Jens
+739,Ipsach,2834,2010-01-01,NA,739,Ipsach
+740,Ligerz,2835,2010-01-01,NA,740,Ligerz
+741,Merzligen,2885,2010-01-01,NA,741,Merzligen
+742,Mörigen,2836,2010-01-01,NA,742,Mörigen
+743,Nidau,2837,2010-01-01,NA,743,Nidau
+744,Orpund,2838,2010-01-01,NA,744,Orpund
+745,Port,2839,2010-01-01,NA,745,Port
+746,Safnern,2840,2010-01-01,NA,746,Safnern
+747,Scheuren,2841,2010-01-01,NA,747,Scheuren
+748,Schwadernau,2842,2010-01-01,NA,748,Schwadernau
+749,Studen (BE),2886,2010-01-01,NA,749,Studen (BE)
+750,Sutz-Lattrigen,2843,2010-01-01,NA,750,Sutz-Lattrigen
+751,Täuffelen,2887,2010-01-01,NA,751,Täuffelen
+754,Walperswil,2888,2010-01-01,NA,754,Walperswil
+755,Worben,2889,2010-01-01,NA,755,Worben
+761,Därstetten,3126,2010-01-01,NA,761,Därstetten
+762,Diemtigen,3127,2010-01-01,NA,762,Diemtigen
+763,Erlenbach im Simmental,3128,2010-01-01,NA,763,Erlenbach im Simmental
+764,Niederstocken,3077,2010-01-01,3416,770,Stocken-Höfen
+765,Oberstocken,3078,2010-01-01,3416,770,Stocken-Höfen
+766,Oberwil im Simmental,3129,2010-01-01,NA,766,Oberwil im Simmental
+767,Reutigen,3079,2010-01-01,NA,767,Reutigen
+768,Spiez,3130,2010-01-01,NA,768,Spiez
+769,Wimmis,3131,2010-01-01,NA,769,Wimmis
+781,Gadmen,3155,2010-01-01,3417,784,Innertkirchen
+782,Guttannen,3156,2010-01-01,NA,782,Guttannen
+783,Hasliberg,3157,2010-01-01,NA,783,Hasliberg
+784,Innertkirchen,3158,2010-01-01,3417,784,Innertkirchen
+785,Meiringen,3159,2010-01-01,NA,785,Meiringen
+786,Schattenhalb,3160,2010-01-01,NA,786,Schattenhalb
+791,Boltigen,3112,2010-01-01,NA,791,Boltigen
+792,Lenk,3113,2010-01-01,NA,792,Lenk
+793,St. Stephan,3114,2010-01-01,NA,793,St. Stephan
+794,Zweisimmen,3115,2010-01-01,NA,794,Zweisimmen
+841,Gsteig,3116,2010-01-01,NA,841,Gsteig
+842,Lauenen,3117,2010-01-01,NA,842,Lauenen
+843,Saanen,3118,2010-01-01,NA,843,Saanen
+851,Albligen,3054,2010-01-01,3178,855,Schwarzenburg
+852,Guggisberg,3055,2010-01-01,NA,852,Guggisberg
+853,Rüschegg,3056,2010-01-01,NA,853,Rüschegg
+854,Wahlern,3057,2010-01-01,3178,855,Schwarzenburg
+861,Belp,3058,2010-01-01,3279,861,Belp
+862,Belpberg,3059,2010-01-01,3279,861,Belp
+863,Burgistein,3080,2010-01-01,NA,863,Burgistein
+865,Gelterfingen,3060,2010-01-01,3585,872,Kirchdorf (BE)
+866,Gerzensee,3061,2010-01-01,NA,866,Gerzensee
+867,Gurzelen,3081,2010-01-01,NA,867,Gurzelen
+868,Jaberg,3062,2010-01-01,NA,868,Jaberg
+869,Kaufdorf,3063,2010-01-01,NA,869,Kaufdorf
+870,Kehrsatz,3064,2010-01-01,NA,870,Kehrsatz
+871,Kienersrüti,3082,2010-01-01,3418,885,Uttigen
+872,Kirchdorf (BE),3065,2010-01-01,3585,872,Kirchdorf (BE)
+873,Kirchenthurnen,3066,2010-01-01,3920,889,Thurnen
+874,Lohnstorf,3067,2010-01-01,3920,889,Thurnen
+875,Mühledorf (BE),3068,2010-01-01,3585,872,Kirchdorf (BE)
+876,Mühlethurnen,3069,2010-01-01,3920,889,Thurnen
+877,Niedermuhlern,3070,2010-01-01,NA,877,Niedermuhlern
+878,Noflen,3071,2010-01-01,3585,872,Kirchdorf (BE)
+879,Riggisberg,3072,2010-01-01,3951,879,Riggisberg
+880,Rüeggisberg,3073,2010-01-01,NA,880,Rüeggisberg
+881,Rümligen,3074,2010-01-01,3951,879,Riggisberg
+883,Seftigen,3083,2010-01-01,NA,883,Seftigen
+884,Toffen,3075,2010-01-01,NA,884,Toffen
+885,Uttigen,3084,2010-01-01,3418,885,Uttigen
+886,Wattenwil,3085,2010-01-01,NA,886,Wattenwil
+888,Wald (BE),3076,2010-01-01,NA,888,Wald (BE)
+901,Eggiwil,2966,2010-01-01,NA,901,Eggiwil
+902,Langnau im Emmental,2967,2010-01-01,NA,902,Langnau im Emmental
+903,Lauperswil,2968,2010-01-01,NA,903,Lauperswil
+904,Röthenbach im Emmental,2969,2010-01-01,NA,904,Röthenbach im Emmental
+905,Rüderswil,2970,2010-01-01,NA,905,Rüderswil
+906,Schangnau,2971,2010-01-01,NA,906,Schangnau
+907,Signau,2972,2010-01-01,NA,907,Signau
+908,Trub,2973,2010-01-01,NA,908,Trub
+909,Trubschachen,2974,2010-01-01,NA,909,Trubschachen
+921,Amsoldingen,3086,2010-01-01,NA,921,Amsoldingen
+922,Blumenstein,3087,2010-01-01,NA,922,Blumenstein
+923,Buchholterberg,3088,2010-01-01,NA,923,Buchholterberg
+924,Eriz,3089,2010-01-01,NA,924,Eriz
+925,Fahrni,3090,2010-01-01,NA,925,Fahrni
+927,Heiligenschwendi,3091,2010-01-01,NA,927,Heiligenschwendi
+928,Heimberg,3092,2010-01-01,NA,928,Heimberg
+929,Hilterfingen,3093,2010-01-01,NA,929,Hilterfingen
+930,Höfen,3094,2010-01-01,3416,770,Stocken-Höfen
+931,Homberg,3095,2010-01-01,NA,931,Homberg
+932,Horrenbach-Buchen,3096,2010-01-01,NA,932,Horrenbach-Buchen
+934,Oberhofen am Thunersee,3097,2010-01-01,NA,934,Oberhofen am Thunersee
+935,Oberlangenegg,3098,2010-01-01,NA,935,Oberlangenegg
+936,Pohlern,3099,2010-01-01,NA,936,Pohlern
+937,Schwendibach,3100,2010-01-01,3921,939,Steffisburg
+938,Sigriswil,3101,2010-01-01,NA,938,Sigriswil
+939,Steffisburg,3102,2010-01-01,3921,939,Steffisburg
+940,Teuffenthal (BE),3103,2010-01-01,NA,940,Teuffenthal (BE)
+941,Thierachern,3104,2010-01-01,NA,941,Thierachern
+942,Thun,3105,2010-01-01,NA,942,Thun
+943,Uebeschi,3106,2010-01-01,NA,943,Uebeschi
+944,Uetendorf,3107,2010-01-01,NA,944,Uetendorf
+945,Unterlangenegg,3108,2010-01-01,NA,945,Unterlangenegg
+946,Wachseldorn,3109,2010-01-01,NA,946,Wachseldorn
+947,Zwieselberg,3110,2010-01-01,NA,947,Zwieselberg
+948,Forst-Längenbühl,3111,2010-01-01,NA,948,Forst-Längenbühl
+951,Affoltern im Emmental,2975,2010-01-01,NA,951,Affoltern im Emmental
+952,Dürrenroth,2976,2010-01-01,NA,952,Dürrenroth
+953,Eriswil,2912,2010-01-01,NA,953,Eriswil
+954,Huttwil,2913,2010-01-01,NA,954,Huttwil
+955,Lützelflüh,2977,2010-01-01,NA,955,Lützelflüh
+956,Rüegsau,2978,2010-01-01,NA,956,Rüegsau
+957,Sumiswald,2979,2010-01-01,NA,957,Sumiswald
+958,Trachselwald,2980,2010-01-01,NA,958,Trachselwald
+959,Walterswil (BE),2914,2010-01-01,NA,959,Walterswil (BE)
+960,Wyssachen,2915,2010-01-01,NA,960,Wyssachen
+971,Attiswil,2916,2010-01-01,NA,971,Attiswil
+972,Berken,2917,2010-01-01,NA,972,Berken
+973,Bettenhausen,2918,2010-01-01,3179,973,Bettenhausen
+974,Bollodingen,2919,2010-01-01,3179,973,Bettenhausen
+975,Farnern,2920,2010-01-01,NA,975,Farnern
+976,Graben,2921,2010-01-01,NA,976,Graben
+977,Heimenhausen,2922,2010-01-01,NA,977,Heimenhausen
+978,Hermiswil,2923,2010-01-01,3442,988,Seeberg
+979,Herzogenbuchsee,2924,2010-01-01,NA,979,Herzogenbuchsee
+980,Inkwil,2925,2010-01-01,NA,980,Inkwil
+981,Niederbipp,2926,2010-01-01,3922,981,Niederbipp
+982,Niederönz,2927,2010-01-01,NA,982,Niederönz
+983,Oberbipp,2928,2010-01-01,NA,983,Oberbipp
+985,Ochlenberg,2929,2010-01-01,NA,985,Ochlenberg
+987,Rumisberg,2930,2010-01-01,NA,987,Rumisberg
+988,Seeberg,2931,2010-01-01,3442,988,Seeberg
+989,Thörigen,2932,2010-01-01,NA,989,Thörigen
+990,Walliswil bei Niederbipp,2933,2010-01-01,NA,990,Walliswil bei Niederbipp
+991,Walliswil bei Wangen,2934,2010-01-01,NA,991,Walliswil bei Wangen
+992,Wangen an der Aare,2935,2010-01-01,NA,992,Wangen an der Aare
+993,Wangenried,2936,2010-01-01,NA,993,Wangenried
+995,Wiedlisbach,2937,2010-01-01,NA,995,Wiedlisbach
+996,Wolfisberg,2938,2010-01-01,3922,981,Niederbipp
+1061,Luzern,3161,2010-01-01,3301,1061,Luzern
+2457,Messen,3162,2010-01-01,NA,2457,Messen
+3359,Wildhaus-Alt St. Johann,3163,2010-01-01,NA,3359,Wildhaus-Alt St. Johann
+3661,Cazis,3164,2010-01-01,3555,3661,Cazis
+3792,Bregaglia,3165,2010-01-01,3504,3792,Bregaglia
+3911,Churwalden,3166,2010-01-01,3517,3911,Churwalden
+4001,Aarau,3167,2010-01-01,NA,4001,Aarau
+4080,Villmergen,3168,2010-01-01,NA,4080,Villmergen
+4095,Brugg,3169,2010-01-01,3927,4095,Brugg
+4184,Mettauertal,3170,2010-01-01,NA,4184,Mettauertal
+4169,Kaisten,3171,2010-01-01,NA,4169,Kaisten
+4170,Laufenburg,3172,2010-01-01,NA,4170,Laufenburg
+5398,Gambarogno,3173,2010-04-25,NA,5398,Gambarogno
+5238,Monteceneri,3174,2010-11-21,NA,5238,Monteceneri
+4696,Tägerwilen,3231,2011-01-01,NA,4696,Tägerwilen
+4864,Steckborn,3219,2011-01-01,NA,4864,Steckborn
+4606,Stettfurt,3207,2011-01-01,NA,4606,Stettfurt
+4451,Uttwil,3196,2011-01-01,NA,4451,Uttwil
+4641,Altnau,3221,2011-01-01,NA,4641,Altnau
+4801,Berlingen,3211,2011-01-01,NA,4801,Berlingen
+4656,Güttingen,3225,2011-01-01,NA,4656,Güttingen
+4651,Gottlieben,3224,2011-01-01,NA,4651,Gottlieben
+4411,Egnach,3188,2011-01-01,NA,4411,Egnach
+4406,Dozwil,3187,2011-01-01,NA,4406,Dozwil
+4421,Horn,3190,2011-01-01,NA,4421,Horn
+4806,Eschenz,3212,2011-01-01,NA,4806,Eschenz
+4416,Hefenhofen,3189,2011-01-01,NA,4416,Hefenhofen
+4746,Münchwilen (TG),3242,2011-01-01,NA,4746,Münchwilen (TG)
+4671,Kreuzlingen,3227,2011-01-01,NA,4671,Kreuzlingen
+4426,Kesswil,3191,2011-01-01,NA,4426,Kesswil
+4591,Matzingen,3205,2011-01-01,NA,4591,Matzingen
+4436,Romanshorn,3193,2011-01-01,NA,4436,Romanshorn
+4431,Roggwil (TG),3192,2011-01-01,NA,4431,Roggwil (TG)
+4441,Salmsach,3194,2011-01-01,NA,4441,Salmsach
+4846,Raperswilen,3233,2011-01-01,NA,4846,Raperswilen
+4756,Schönholzerswilen,3256,2011-01-01,NA,4756,Schönholzerswilen
+4831,Müllheim,3217,2011-01-01,NA,4831,Müllheim
+4446,Sommeri,3195,2011-01-01,NA,4446,Sommeri
+4791,Wuppenau,3257,2011-01-01,NA,4791,Wuppenau
+4726,Fischingen,3240,2011-01-01,NA,4726,Fischingen
+4941,Märstetten,3263,2011-01-01,NA,4941,Märstetten
+4646,Ermatingen,3223,2011-01-01,NA,4646,Ermatingen
+4851,Salenstein,3234,2011-01-01,NA,4851,Salenstein
+4561,Felben-Wellhausen,3201,2011-01-01,NA,4561,Felben-Wellhausen
+4826,Mammern,3216,2011-01-01,NA,4826,Mammern
+4643,Bottighofen,3222,2011-01-01,NA,4643,Bottighofen
+4691,Münsterlingen,3230,2011-01-01,NA,4691,Münsterlingen
+4476,Erlen,3249,2011-01-01,NA,4476,Erlen
+4911,Bürglen (TG),3261,2011-01-01,NA,4911,Bürglen (TG)
+4611,Thundorf,3208,2011-01-01,NA,4611,Thundorf
+4621,Warth-Weiningen,3210,2011-01-01,NA,4621,Warth-Weiningen
+4616,Uesslingen-Buch,3209,2011-01-01,NA,4616,Uesslingen-Buch
+4701,Wäldi,3232,2011-01-01,NA,4701,Wäldi
+4711,Affeltrangen,3255,2011-01-01,NA,4711,Affeltrangen
+4716,Bettwiesen,3236,2011-01-01,NA,4716,Bettwiesen
+4741,Lommis,3241,2011-01-01,NA,4741,Lommis
+4881,Amlikon-Bissegg,3258,2011-01-01,NA,4881,Amlikon-Bissegg
+4946,Weinfelden,3264,2011-01-01,NA,4946,Weinfelden
+4901,Birwinken,3260,2011-01-01,NA,4901,Birwinken
+4951,Wigoltingen,3265,2011-01-01,NA,4951,Wigoltingen
+4871,Wagenhausen,3220,2011-01-01,NA,4871,Wagenhausen
+4781,Wängi,3246,2011-01-01,NA,4781,Wängi
+4551,Aadorf,3235,2011-01-01,NA,4551,Aadorf
+4721,Bichelsee-Balterswil,3237,2011-01-01,NA,4721,Bichelsee-Balterswil
+4921,Bussnang,3262,2011-01-01,NA,4921,Bussnang
+4666,Kemmental,3226,2011-01-01,NA,4666,Kemmental
+4486,Hauptwil-Gottshaus,3250,2011-01-01,NA,4486,Hauptwil-Gottshaus
+4601,Neunforn,3206,2011-01-01,NA,4601,Neunforn
+4501,Kradolf-Schönenberg,3252,2011-01-01,NA,4501,Kradolf-Schönenberg
+4471,Bischofszell,3248,2011-01-01,NA,4471,Bischofszell
+4506,Sulgen,3253,2011-01-01,NA,4506,Sulgen
+4461,Amriswil,3197,2011-01-01,NA,4461,Amriswil
+4511,Zihlschlacht-Sitterdorf,3254,2011-01-01,NA,4511,Zihlschlacht-Sitterdorf
+4761,Sirnach,3244,2011-01-01,NA,4761,Sirnach
+4724,Eschlikon,3239,2011-01-01,NA,4724,Eschlikon
+4821,Hüttwilen,3215,2011-01-01,NA,4821,Hüttwilen
+4401,Arbon,3186,2011-01-01,NA,4401,Arbon
+4571,Gachnang,3203,2011-01-01,NA,4571,Gachnang
+4566,Frauenfeld,3202,2011-01-01,NA,4566,Frauenfeld
+4681,Langrickenbach,3228,2011-01-01,NA,4681,Langrickenbach
+4683,Lengwil,3229,2011-01-01,NA,4683,Lengwil
+4891,Berg (TG),3259,2011-01-01,NA,4891,Berg (TG)
+4786,Wilen (TG),3247,2011-01-01,NA,4786,Wilen (TG)
+4751,Rickenbach (TG),3243,2011-01-01,NA,4751,Rickenbach (TG)
+4811,Herdern,3213,2011-01-01,NA,4811,Herdern
+4841,Pfyn,3218,2011-01-01,NA,4841,Pfyn
+4495,Hohentannen,3251,2011-01-01,NA,4495,Hohentannen
+4546,Schlatt (TG),3200,2011-01-01,NA,4546,Schlatt (TG)
+4536,Basadingen-Schlattingen,3198,2011-01-01,NA,4536,Basadingen-Schlattingen
+4590,Hüttlingen,3204,2011-01-01,NA,4590,Hüttlingen
+4723,Braunau,3238,2011-01-01,NA,4723,Braunau
+4776,Tobel-Tägerschen,3245,2011-01-01,NA,4776,Tobel-Tägerschen
+4816,Homburg,3214,2011-01-01,NA,4816,Homburg
+4545,Diessenhofen,3199,2011-01-01,NA,4545,Diessenhofen
+306,Lyss,3176,2011-01-01,NA,306,Lyss
+332,Madiswil,3177,2011-01-01,NA,332,Madiswil
+855,Schwarzenburg,3178,2011-01-01,NA,855,Schwarzenburg
+973,Bettenhausen,3179,2011-01-01,NA,973,Bettenhausen
+1631,Glarus Süd,3180,2011-01-01,NA,1631,Glarus Süd
+1630,Glarus Nord,3181,2011-01-01,NA,1630,Glarus Nord
+1632,Glarus,3182,2011-01-01,NA,1632,Glarus
+2129,Corbières,3183,2011-01-01,NA,2129,Corbières
+2554,Riedholz,3184,2011-01-01,NA,2554,Riedholz
+3961,Grüsch,3185,2011-01-01,3530,3961,Grüsch
+6090,Mont-Noble,3266,2011-01-01,NA,6090,Mont-Noble
+5422,Aubonne,3267,2011-07-01,3943,5422,Aubonne
+5451,Avenches,3268,2011-07-01,NA,5451,Avenches
+5464,Vully-les-Lacs,3269,2011-07-01,NA,5464,Vully-les-Lacs
+5540,Montilliez,3270,2011-07-01,NA,5540,Montilliez
+5541,Goumoëns,3271,2011-07-01,NA,5541,Goumoëns
+5804,Jorat-Menthue,3272,2011-07-01,NA,5804,Jorat-Menthue
+5571,Tévenon,3273,2011-07-01,NA,5571,Tévenon
+5613,Bourg-en-Lavaux,3274,2011-07-01,NA,5613,Bourg-en-Lavaux
+5634,Echichens,3275,2011-07-01,NA,5634,Echichens
+5675,Lucens,3276,2011-07-01,3575,5675,Lucens
+5831,Valbroye,3277,2011-07-01,NA,5831,Valbroye
+5938,Yverdon-les-Bains,3278,2011-07-01,NA,5938,Yverdon-les-Bains
+861,Belp,3279,2012-01-01,NA,861,Belp
+2015,Estavayer-le-Lac,3280,2012-01-01,3457,2054,Estavayer
+2102,Ursy,3281,2012-01-01,NA,2102,Ursy
+3955,Landquart,3283,2012-01-01,3492,3955,Landquart
+3987,Trun,3284,2012-01-01,3548,3987,Trun
+4234,Merenschwand,3285,2012-01-01,NA,4234,Merenschwand
+5805,Oron,3286,2012-01-01,3960,5805,Oron
+5799,Servion,3287,2012-01-01,NA,5799,Servion
+5905,Champvent,3288,2012-01-01,NA,5905,Champvent
+5913,Donneloye,3289,2012-01-01,NA,5913,Donneloye
+2511,Aeschi (SO),3282,2012-01-01,NA,2511,Aeschi (SO)
+5050,Serravalle,3290,2012-04-01,NA,5050,Serravalle
+5072,Faido,3291,2012-04-01,3453,5072,Faido
+5236,Collina d'Oro,3292,2012-04-01,NA,5236,Collina d'Oro
+24,Buch am Irchel,3293,2013-01-01,NA,24,Buch am Irchel
+223,Neftenbach,3293,2013-01-01,NA,223,Neftenbach
+304,Kallnach,3294,2013-01-01,3626,304,Kallnach
+310,Rapperswil (BE),3295,2013-01-01,3440,310,Rapperswil (BE)
+616,Münsingen,3296,2013-01-01,3456,616,Münsingen
+1010,Escholzmatt-Marbach,3297,2013-01-01,NA,1010,Escholzmatt-Marbach
+1081,Beromünster,3298,2013-01-01,3432,1081,Beromünster
+1097,Rickenbach (LU),3299,2013-01-01,NA,1097,Rickenbach (LU)
+1143,Schötz,3300,2013-01-01,NA,1143,Schötz
+1009,Werthenstein,3378,2013-01-01,NA,1009,Werthenstein
+1147,Wikon,3369,2013-01-01,NA,1147,Wikon
+1150,Zell (LU),3370,2013-01-01,NA,1150,Zell (LU)
+1107,Wolhusen,3379,2013-01-01,NA,1107,Wolhusen
+1068,Vitznau,3317,2013-01-01,NA,1068,Vitznau
+1146,Wauwil,3368,2013-01-01,NA,1146,Wauwil
+1069,Weggis,3318,2013-01-01,NA,1069,Weggis
+1103,Sursee,3348,2013-01-01,NA,1103,Sursee
+1067,Udligenswil,3316,2013-01-01,NA,1067,Udligenswil
+1145,Ufhusen,3367,2013-01-01,NA,1145,Ufhusen
+1052,Buchrain,3303,2013-01-01,NA,1052,Buchrain
+1083,Buttisholz,3334,2013-01-01,NA,1083,Buttisholz
+1082,Büron,3333,2013-01-01,NA,1082,Büron
+1053,Dierikon,3304,2013-01-01,NA,1053,Dierikon
+1023,Ballwil,3321,2013-01-01,NA,1023,Ballwil
+1121,Alberswil,3350,2013-01-01,NA,1121,Alberswil
+1051,Adligenswil,3302,2013-01-01,NA,1051,Adligenswil
+1021,Aesch (LU),3319,2013-01-01,NA,1021,Aesch (LU)
+1122,Altbüron,3351,2013-01-01,NA,1122,Altbüron
+1123,Altishofen,3352,2013-01-01,3923,1123,Altishofen
+1022,Altwis,3320,2013-01-01,3933,1030,Hitzkirch
+1004,Flühli,3374,2013-01-01,NA,1004,Flühli
+1131,Grossdietwil,3359,2013-01-01,NA,1131,Grossdietwil
+1086,Grosswangen,3337,2013-01-01,NA,1086,Grosswangen
+1129,Fischbach,3357,2013-01-01,NA,1129,Fischbach
+1005,Hasle (LU),3375,2013-01-01,NA,1005,Hasle (LU)
+1085,Geuensee,3336,2013-01-01,NA,1085,Geuensee
+1130,Gettnau,3358,2013-01-01,3934,1151,Willisau
+1055,Gisikon,3306,2013-01-01,NA,1055,Gisikon
+1056,Greppen,3307,2013-01-01,NA,1056,Greppen
+1054,Ebikon,3305,2013-01-01,NA,1054,Ebikon
+1126,Ebersecken,3354,2013-01-01,3923,1123,Altishofen
+1084,Eich,3335,2013-01-01,NA,1084,Eich
+1127,Egolzwil,3355,2013-01-01,NA,1127,Egolzwil
+1031,Hochdorf,3326,2013-01-01,NA,1031,Hochdorf
+1001,Doppleschwand,3372,2013-01-01,NA,1001,Doppleschwand
+1057,Honau,3308,2013-01-01,NA,1057,Honau
+1058,Horw,3309,2013-01-01,NA,1058,Horw
+1026,Eschenbach (LU),3324,2013-01-01,NA,1026,Eschenbach (LU)
+1002,Entlebuch,3373,2013-01-01,NA,1002,Entlebuch
+1088,Hildisrieden,3338,2013-01-01,NA,1088,Hildisrieden
+1024,Emmen,3322,2013-01-01,NA,1024,Emmen
+1025,Ermensee,3323,2013-01-01,NA,1025,Ermensee
+1132,Hergiswil bei Willisau,3360,2013-01-01,NA,1132,Hergiswil bei Willisau
+1136,Menznau,3362,2013-01-01,NA,1136,Menznau
+1064,Meierskappel,3313,2013-01-01,NA,1064,Meierskappel
+1063,Meggen,3312,2013-01-01,NA,1063,Meggen
+1095,Oberkirch,3343,2013-01-01,NA,1095,Oberkirch
+1093,Neuenkirch,3341,2013-01-01,NA,1093,Neuenkirch
+1137,Nebikon,3363,2013-01-01,NA,1137,Nebikon
+1094,Nottwil,3342,2013-01-01,NA,1094,Nottwil
+1091,Mauensee,3340,2013-01-01,NA,1091,Mauensee
+1033,Inwil,3328,2013-01-01,NA,1033,Inwil
+1089,Knutwil,3339,2013-01-01,NA,1089,Knutwil
+1059,Kriens,3310,2013-01-01,NA,1059,Kriens
+1135,Luthern,3361,2013-01-01,NA,1135,Luthern
+1062,Malters,3311,2013-01-01,NA,1062,Malters
+1040,Rothenburg,3331,2013-01-01,NA,1040,Rothenburg
+1098,Ruswil,3344,2013-01-01,NA,1098,Ruswil
+1065,Root,3314,2013-01-01,NA,1065,Root
+1007,Romoos,3376,2013-01-01,NA,1007,Romoos
+1142,Roggliswil,3366,2013-01-01,NA,1142,Roggliswil
+1066,Schwarzenberg,3315,2013-01-01,NA,1066,Schwarzenberg
+1008,Schüpfheim,3377,2013-01-01,NA,1008,Schüpfheim
+1041,Schongau,3332,2013-01-01,NA,1041,Schongau
+1102,Sempach,3347,2013-01-01,NA,1102,Sempach
+1100,Schlierbach,3346,2013-01-01,NA,1100,Schlierbach
+1099,Schenkon,3345,2013-01-01,3432,1081,Beromünster
+1037,Rain,3329,2013-01-01,NA,1037,Rain
+1139,Pfaffnau,3364,2013-01-01,NA,1139,Pfaffnau
+1039,Römerswil,3330,2013-01-01,NA,1039,Römerswil
+1125,Dagmersellen,3353,2013-01-01,NA,1125,Dagmersellen
+1128,Ettiswil,3356,2013-01-01,NA,1128,Ettiswil
+1151,Willisau,3371,2013-01-01,3934,1151,Willisau
+1140,Reiden,3365,2013-01-01,NA,1140,Reiden
+1032,Hohenrain,3327,2013-01-01,NA,1032,Hohenrain
+1030,Hitzkirch,3325,2013-01-01,3933,1030,Hitzkirch
+1104,Triengen,3349,2013-01-01,NA,1104,Triengen
+1061,Luzern,3301,2013-01-01,NA,1061,Luzern
+2275,Murten,3380,2013-01-01,3446,2275,Murten
+2464,Lüsslingen-Nennigkofen,3381,2013-01-01,NA,2464,Lüsslingen-Nennigkofen
+2535,Drei Höfe,3382,2013-01-01,NA,2535,Drei Höfe
+2932,Beringen,3383,2013-01-01,NA,2932,Beringen
+3341,Gommiswald,3384,2013-01-01,NA,3341,Gommiswald
+3342,Eschenbach (SG),3385,2013-01-01,NA,3342,Eschenbach (SG)
+3360,Nesslau,3386,2013-01-01,NA,3360,Nesslau
+3379,Wattwil,3387,2013-01-01,NA,3379,Wattwil
+3395,Bütschwil-Ganterschwil,3388,2013-01-01,NA,3395,Bütschwil-Ganterschwil
+3427,Wil (SG),3389,2013-01-01,NA,3427,Wil (SG)
+3672,Safiental,3390,2013-01-01,3542,3672,Safiental
+3618,Lumnezia,3391,2013-01-01,3540,3618,Lumnezia
+3764,Valsot,3392,2013-01-01,3476,3764,Valsot
+3921,Arosa,3393,2013-01-01,3518,3921,Arosa
+4124,Bözberg,3394,2013-01-01,NA,4124,Bözberg
+5693,Montanaire,3395,2013-01-01,NA,5693,Montanaire
+6007,Naters,3396,2013-01-01,NA,6007,Naters
+6110,Leuk,3397,2013-01-01,NA,6110,Leuk
+6119,Turtmann-Unterems,3398,2013-01-01,NA,6119,Turtmann-Unterems
+6217,Saint-Maurice,3399,2013-01-01,NA,6217,Saint-Maurice
+6266,Sion,3400,2013-01-01,3578,6266,Sion
+6416,Milvignes,3401,2013-01-01,3596,6416,Milvignes
+6487,Val-de-Ruz,3402,2013-01-01,3617,6487,Val-de-Ruz
+6729,Haute-Sorne,3403,2013-01-01,NA,6729,Haute-Sorne
+6730,Val Terbi,3404,2013-01-01,3621,6730,Val Terbi
+6790,Fontenais,3405,2013-01-01,NA,6790,Fontenais
+5396,Terre di Pedemonte,3406,2013-04-14,NA,5396,Terre di Pedemonte
+5192,Lugano,3407,2013-04-14,NA,5192,Lugano
+5254,Mendrisio,3409,2013-04-14,NA,5254,Mendrisio
+298,Wiesendangen,3410,2014-01-01,NA,298,Wiesendangen
+449,Sauge,3411,2014-01-01,NA,449,Sauge
+538,Fraubrunnen,3412,2014-01-01,NA,538,Fraubrunnen
+540,Jegenstorf,3413,2014-01-01,NA,540,Jegenstorf
+619,Oberdiessbach,3414,2014-01-01,NA,619,Oberdiessbach
+726,Plateau de Diesse,3415,2014-01-01,NA,726,Plateau de Diesse
+770,Stocken-Höfen,3416,2014-01-01,NA,770,Stocken-Höfen
+784,Innertkirchen,3417,2014-01-01,NA,784,Innertkirchen
+885,Uttigen,3418,2014-01-01,NA,885,Uttigen
+2163,Val-de-Charmey,3419,2014-01-01,NA,2163,Val-de-Charmey
+2465,Buchegg,3420,2014-01-01,NA,2465,Buchegg
+3619,Ilanz/Glion,3421,2014-01-01,3541,3619,Ilanz/Glion
+4063,Bremgarten (AG),3422,2014-01-01,NA,4063,Bremgarten (AG)
+4125,Schinznach,3423,2014-01-01,NA,4125,Schinznach
+4305,Endingen,3424,2014-01-01,NA,4305,Endingen
+6205,Bettmeralp,3425,2014-01-01,NA,6205,Bettmeralp
+5624,Bussigny,3426,2014-05-01,NA,5624,Bussigny
+5702,Arzier-Le Muids,3427,2014-05-01,NA,5702,Arzier-Le Muids
+297,Bauma,3428,2015-01-01,NA,297,Bauma
+450,Péry-La Heutte,3429,2015-01-01,NA,450,Péry-La Heutte
+717,Valbirse,3430,2015-01-01,NA,717,Valbirse
+716,Petit-Val,3431,2015-01-01,NA,716,Petit-Val
+1081,Beromünster,3432,2015-01-01,NA,1081,Beromünster
+1099,Schenkon,3432,2015-01-01,NA,1099,Schenkon
+3542,Albula/Alvra,3433,2015-01-01,3469,3542,Albula/Alvra
+3603,Vals,3434,2015-01-01,3537,3603,Vals
+3673,Domleschg,3435,2015-01-01,3561,3673,Domleschg
+3762,Scuol,3436,2015-01-01,3475,3762,Scuol
+3746,Zernez,3437,2015-01-01,3473,3746,Zernez
+3837,Calanca,3438,2015-01-01,3515,3837,Calanca
+296,Illnau-Effretikon,3439,2016-01-01,NA,296,Illnau-Effretikon
+310,Rapperswil (BE),3440,2016-01-01,NA,310,Rapperswil (BE)
+405,Ersigen,3441,2016-01-01,NA,405,Ersigen
+988,Seeberg,3442,2016-01-01,NA,988,Seeberg
+2053,Belmont-Broye,3443,2016-01-01,NA,2053,Belmont-Broye
+2175,Belfaux,3444,2016-01-01,NA,2175,Belfaux
+2236,Gibloux,3445,2016-01-01,NA,2236,Gibloux
+2275,Murten,3446,2016-01-01,3957,2275,Murten
+2284,Mont-Vully,3447,2016-01-01,NA,2284,Mont-Vully
+3543,Surses,3448,2016-01-01,3470,3543,Surses
+3988,Obersaxen Mundaun,3449,2016-01-01,3549,3988,Obersaxen Mundaun
+3871,Klosters-Serneus,3450,2016-01-01,3526,3871,Klosters
+3891,Luzein,3451,2016-01-01,3529,3891,Luzein
+6413,Rochefort,3452,2016-01-01,3595,6413,Rochefort
+5072,Faido,3453,2016-04-10,NA,5072,Faido
+5136,Onsernone,3454,2016-04-10,NA,5136,Onsernone
+5806,Jorat-Mézières,3455,2016-07-01,NA,5806,Jorat-Mézières
+616,Münsingen,3456,2017-01-01,NA,616,Münsingen
+2054,Estavayer,3457,2017-01-01,NA,2054,Estavayer
+2055,Cheyres-Châbles,3458,2017-01-01,NA,2055,Cheyres-Châbles
+2044,Surpierre,3459,2017-01-01,3936,2044,Surpierre
+2183,Corminboeuf,3460,2017-01-01,NA,2183,Corminboeuf
+2254,Courtepin,3461,2017-01-01,NA,2254,Courtepin
+2299,Plaffeien,3462,2017-01-01,NA,2299,Plaffeien
+3832,Grono,3463,2017-01-01,NA,3832,Grono
+3503,Mutten,3550,2017-01-01,3586,3668,Thusis
+3506,Vaz/Obervaz,3464,2017-01-01,NA,3506,Vaz/Obervaz
+3513,Lantsch/Lenz,3465,2017-01-01,NA,3513,Lantsch/Lenz
+3514,Schmitten (GR),3466,2017-01-01,NA,3514,Schmitten (GR)
+3521,Bergün/Bravuogn,3467,2017-01-01,3587,3544,Bergün Filisur
+3522,Filisur,3468,2017-01-01,3587,3544,Bergün Filisur
+3551,Brusio,3471,2017-01-01,NA,3551,Brusio
+3561,Poschiavo,3472,2017-01-01,NA,3561,Poschiavo
+3572,Falera,3533,2017-01-01,NA,3572,Falera
+3575,Laax,3534,2017-01-01,NA,3575,Laax
+3581,Sagogn,3535,2017-01-01,NA,3581,Sagogn
+3582,Schluein,3536,2017-01-01,NA,3582,Schluein
+3611,Andiast,3538,2017-01-01,3588,3981,Breil/Brigels
+3616,Waltensburg/Vuorz,3539,2017-01-01,3588,3981,Breil/Brigels
+3633,Fürstenau,3551,2017-01-01,NA,3633,Fürstenau
+3637,Rothenbrunnen,3552,2017-01-01,NA,3637,Rothenbrunnen
+3638,Scharans,3553,2017-01-01,NA,3638,Scharans
+3640,Sils im Domleschg,3554,2017-01-01,NA,3640,Sils im Domleschg
+3662,Flerden,3556,2017-01-01,NA,3662,Flerden
+3663,Masein,3557,2017-01-01,NA,3663,Masein
+3668,Thusis,3558,2017-01-01,3586,3668,Thusis
+3669,Tschappina,3559,2017-01-01,NA,3669,Tschappina
+3670,Urmein,3560,2017-01-01,NA,3670,Urmein
+3681,Avers,3562,2017-01-01,NA,3681,Avers
+3691,Hinterrhein,3563,2017-01-01,3627,3714,Rheinwald
+3693,Nufenen,3564,2017-01-01,3627,3714,Rheinwald
+3695,Sufers,3566,2017-01-01,NA,3695,Sufers
+3703,Casti-Wergenstein,3568,2017-01-01,3941,3715,Muntogna da Schons
+3707,Lohn (GR),3570,2017-01-01,3941,3715,Muntogna da Schons
+3708,Mathon,3571,2017-01-01,3941,3715,Muntogna da Schons
+3711,Rongellen,3572,2017-01-01,NA,3711,Rongellen
+3712,Zillis-Reischen,3573,2017-01-01,NA,3712,Zillis-Reischen
+3721,Bonaduz,3478,2017-01-01,NA,3721,Bonaduz
+3722,Domat/Ems,3479,2017-01-01,NA,3722,Domat/Ems
+3723,Rhäzüns,3480,2017-01-01,NA,3723,Rhäzüns
+3731,Felsberg,3481,2017-01-01,NA,3731,Felsberg
+3732,Flims,3482,2017-01-01,NA,3732,Flims
+3733,Tamins,3483,2017-01-01,NA,3733,Tamins
+3734,Trin,3484,2017-01-01,NA,3734,Trin
+3752,Samnaun,3474,2017-01-01,NA,3752,Samnaun
+3781,Bever,3493,2017-01-01,NA,3781,Bever
+3782,Celerina/Schlarigna,3494,2017-01-01,NA,3782,Celerina/Schlarigna
+3783,Madulain,3495,2017-01-01,NA,3783,Madulain
+3784,Pontresina,3496,2017-01-01,NA,3784,Pontresina
+3785,La Punt-Chamues-ch,3497,2017-01-01,3930,3785,La Punt Chamues-ch
+3786,Samedan,3498,2017-01-01,NA,3786,Samedan
+3787,St. Moritz,3499,2017-01-01,NA,3787,St. Moritz
+3788,S-chanf,3500,2017-01-01,NA,3788,S-chanf
+3789,Sils im Engadin/Segl,3501,2017-01-01,NA,3789,Sils im Engadin/Segl
+3790,Silvaplana,3502,2017-01-01,NA,3790,Silvaplana
+3791,Zuoz,3503,2017-01-01,NA,3791,Zuoz
+3804,Buseno,3505,2017-01-01,NA,3804,Buseno
+3805,Castaneda,3506,2017-01-01,NA,3805,Castaneda
+3808,Rossa,3507,2017-01-01,NA,3808,Rossa
+3810,Santa Maria in Calanca,3508,2017-01-01,NA,3810,Santa Maria in Calanca
+3821,Lostallo,3509,2017-01-01,NA,3821,Lostallo
+3822,Mesocco,3510,2017-01-01,NA,3822,Mesocco
+3823,Soazza,3511,2017-01-01,NA,3823,Soazza
+3831,Cama,3512,2017-01-01,NA,3831,Cama
+3834,Roveredo (GR),3513,2017-01-01,NA,3834,Roveredo (GR)
+3835,San Vittore,3514,2017-01-01,NA,3835,San Vittore
+3861,Fideris,3523,2017-01-01,NA,3861,Fideris
+3862,Furna,3524,2017-01-01,NA,3862,Furna
+3863,Jenaz,3525,2017-01-01,NA,3863,Jenaz
+3881,Conters im Prättigau,3527,2017-01-01,NA,3881,Conters im Prättigau
+3882,Küblis,3528,2017-01-01,NA,3882,Küblis
+3901,Chur,3516,2017-01-01,3926,3901,Chur
+3926,Maladers,3519,2017-01-01,3926,3901,Chur
+3941,Haldenstein,3521,2017-01-01,3942,3901,Chur
+3946,Untervaz,3486,2017-01-01,NA,3946,Untervaz
+3947,Zizers,3487,2017-01-01,NA,3947,Zizers
+3951,Fläsch,3488,2017-01-01,NA,3951,Fläsch
+3952,Jenins,3489,2017-01-01,NA,3952,Jenins
+3953,Maienfeld,3490,2017-01-01,NA,3953,Maienfeld
+3954,Malans,3491,2017-01-01,NA,3954,Malans
+3962,Schiers,3531,2017-01-01,NA,3962,Schiers
+3972,Seewis im Prättigau,3532,2017-01-01,NA,3972,Seewis im Prättigau
+3981,Breil/Brigels,3543,2017-01-01,3588,3981,Breil/Brigels
+3982,Disentis/Mustér,3544,2017-01-01,NA,3982,Disentis/Mustér
+3983,Medel (Lucmagn),3545,2017-01-01,NA,3983,Medel (Lucmagn)
+3985,Sumvitg,3546,2017-01-01,NA,3985,Sumvitg
+3986,Tujetsch,3547,2017-01-01,NA,3986,Tujetsch
+3705,Donat,3569,2017-01-01,3941,3715,Muntogna da Schons
+3694,Splügen,3565,2017-01-01,3627,3714,Rheinwald
+3713,Ferrera,3574,2017-01-01,NA,3713,Ferrera
+3945,Trimmis,3485,2017-01-01,NA,3945,Trimmis
+3851,Davos,3522,2017-01-01,NA,3851,Davos
+3701,Andeer,3567,2017-01-01,NA,3701,Andeer
+3847,Val Müstair,3477,2017-01-01,NA,3847,Val Müstair
+3932,Tschiertschen-Praden,3520,2017-01-01,NA,3932,Tschiertschen-Praden
+3661,Cazis,3555,2017-01-01,NA,3661,Cazis
+3792,Bregaglia,3504,2017-01-01,NA,3792,Bregaglia
+3911,Churwalden,3517,2017-01-01,NA,3911,Churwalden
+3961,Grüsch,3530,2017-01-01,NA,3961,Grüsch
+3955,Landquart,3492,2017-01-01,NA,3955,Landquart
+3987,Trun,3548,2017-01-01,NA,3987,Trun
+3672,Safiental,3542,2017-01-01,NA,3672,Safiental
+3618,Lumnezia,3540,2017-01-01,NA,3618,Lumnezia
+3764,Valsot,3476,2017-01-01,NA,3764,Valsot
+3921,Arosa,3518,2017-01-01,NA,3921,Arosa
+3619,Ilanz/Glion,3541,2017-01-01,NA,3619,Ilanz/Glion
+3542,Albula/Alvra,3469,2017-01-01,NA,3542,Albula/Alvra
+3603,Vals,3537,2017-01-01,NA,3603,Vals
+3673,Domleschg,3561,2017-01-01,NA,3673,Domleschg
+3762,Scuol,3475,2017-01-01,NA,3762,Scuol
+3746,Zernez,3473,2017-01-01,NA,3746,Zernez
+3837,Calanca,3515,2017-01-01,NA,3837,Calanca
+3543,Surses,3470,2017-01-01,NA,3543,Surses
+3988,Obersaxen Mundaun,3549,2017-01-01,NA,3988,Obersaxen Mundaun
+3871,Klosters-Serneus,3526,2017-01-01,3953,3871,Klosters
+3891,Luzein,3529,2017-01-01,NA,3891,Luzein
+5399,Verzasca,3931,2020-10-17,3932,5138,Cugnasco-Gerra
+5675,Lucens,3575,2017-01-01,NA,5675,Lucens
+5749,Chavornay,3576,2017-01-01,NA,5749,Chavornay
+6077,Goms,3577,2017-01-01,NA,6077,Goms
+6266,Sion,3578,2017-01-01,NA,6266,Sion
+6253,Crans-Montana,3579,2017-01-01,NA,6253,Crans-Montana
+5002,Bellinzona,3580,2017-04-02,NA,5002,Bellinzona
+5287,Riviera,3581,2017-04-02,NA,5287,Riviera
+295,Horgen,3582,2018-01-01,NA,295,Horgen
+294,Elgg,3583,2018-01-01,NA,294,Elgg
+608,Grosshöchstetten,3584,2018-01-01,NA,608,Grosshöchstetten
+872,Kirchdorf (BE),3585,2018-01-01,NA,872,Kirchdorf (BE)
+3668,Thusis,3586,2018-01-01,NA,3668,Thusis
+3544,Bergün Filisur,3587,2018-01-01,NA,3544,Bergün Filisur
+3981,Breil/Brigels,3588,2018-01-01,NA,3981,Breil/Brigels
+4104,Lupfig,3589,2018-01-01,NA,4104,Lupfig
+6417,La Grande-Béroche,3590,2018-01-01,3623,6417,La Grande Béroche
+6404,Boudry,3591,2018-01-01,NA,6404,Boudry
+6407,Corcelles-Cormondrèche,3592,2018-01-01,3947,6458,Neuchâtel
+6408,Cortaillod,3593,2018-01-01,NA,6408,Cortaillod
+6412,Peseux,3594,2018-01-01,3947,6458,Neuchâtel
+6413,Rochefort,3595,2018-01-01,NA,6413,Rochefort
+6416,Milvignes,3596,2018-01-01,NA,6416,Milvignes
+6421,La Chaux-de-Fonds,3597,2018-01-01,NA,6421,La Chaux-de-Fonds
+6422,Les Planchettes,3598,2018-01-01,NA,6422,Les Planchettes
+6423,La Sagne,3599,2018-01-01,NA,6423,La Sagne
+6431,Les Brenets,3600,2018-01-01,3948,6436,Le Locle
+6432,La Brévine,3601,2018-01-01,NA,6432,La Brévine
+6433,Brot-Plamboz,3602,2018-01-01,NA,6433,Brot-Plamboz
+6434,Le Cerneux-Péquignot,3603,2018-01-01,NA,6434,Le Cerneux-Péquignot
+6435,La Chaux-du-Milieu,3604,2018-01-01,NA,6435,La Chaux-du-Milieu
+6436,Le Locle,3605,2018-01-01,3948,6436,Le Locle
+6437,Les Ponts-de-Martel,3606,2018-01-01,NA,6437,Les Ponts-de-Martel
+6451,Cornaux,3607,2018-01-01,NA,6451,Cornaux
+6452,Cressier (NE),3608,2018-01-01,NA,6452,Cressier (NE)
+6453,Enges,3609,2018-01-01,NA,6453,Enges
+6454,Hauterive (NE),3610,2018-01-01,NA,6454,Hauterive (NE)
+6455,Le Landeron,3611,2018-01-01,NA,6455,Le Landeron
+6456,Lignières,3612,2018-01-01,NA,6456,Lignières
+6458,Neuchâtel,3613,2018-01-01,3947,6458,Neuchâtel
+6459,Saint-Blaise,3614,2018-01-01,NA,6459,Saint-Blaise
+6461,La Tène,3615,2018-01-01,NA,6461,La Tène
+6485,Valangin,3616,2018-01-01,3947,6458,Neuchâtel
+6487,Val-de-Ruz,3617,2018-01-01,NA,6487,Val-de-Ruz
+6504,La Côte-aux-Fées,3618,2018-01-01,NA,6504,La Côte-aux-Fées
+6511,Les Verrières,3619,2018-01-01,NA,6511,Les Verrières
+6512,Val-de-Travers,3620,2018-01-01,NA,6512,Val-de-Travers
+6730,Val Terbi,3621,2018-01-01,NA,6730,Val Terbi
+6809,Haute-Ajoie,3622,2018-01-01,NA,6809,Haute-Ajoie
+6417,La Grande Béroche,3623,2018-04-01,NA,6417,La Grande Béroche
+292,Stammheim,3624,2019-01-01,NA,292,Stammheim
+293,Wädenswil,3625,2019-01-01,NA,293,Wädenswil
+304,Kallnach,3626,2019-01-01,NA,304,Kallnach
+3714,Rheinwald,3627,2019-01-01,NA,3714,Rheinwald
+4281,Reitnau,3628,2019-01-01,NA,4281,Reitnau
+6708,Courrendlin,3629,2019-01-01,NA,6708,Courrendlin
+889,Thurnen,3920,2020-01-01,NA,889,Thurnen
+939,Steffisburg,3921,2020-01-01,NA,939,Steffisburg
+981,Niederbipp,3922,2020-01-01,NA,981,Niederbipp
+1123,Altishofen,3923,2020-01-01,NA,1123,Altishofen
+2117,Villaz,3924,2020-01-01,NA,2117,Villaz
+2237,Prez,3925,2020-01-01,NA,2237,Prez
+3901,Chur,3926,2020-01-01,3942,3901,Chur
+4095,Brugg,3927,2020-01-01,NA,4095,Brugg
+3785,La Punt Chamues-ch,3930,2020-10-01,NA,3785,La Punt Chamues-ch
+5138,Cugnasco-Gerra,3932,2020-10-18,NA,5138,Cugnasco-Gerra
+5112,Lavertezzo,3932,2020-10-18,NA,5112,Lavertezzo
+5399,Verzasca,3932,2020-10-18,NA,5399,Verzasca
+1030,Hitzkirch,3933,2021-01-01,NA,1030,Hitzkirch
+1151,Willisau,3934,2021-01-01,NA,1151,Willisau
+1214,Seedorf (UR),3935,2021-01-01,NA,1214,Seedorf (UR)
+2044,Surpierre,3936,2021-01-01,NA,2044,Surpierre
+2238,Bois-d'Amont,3937,2021-01-01,NA,2238,Bois-d'Amont
+2306,Tafers,3938,2021-01-01,NA,2306,Tafers
+2430,Welschenrohr-Gänsbrunnen,3939,2021-01-01,NA,2430,Welschenrohr-Gänsbrunnen
+2499,Stüsslingen,3940,2021-01-01,NA,2499,Stüsslingen
+3715,Muntogna da Schons,3941,2021-01-01,NA,3715,Muntogna da Schons
+3901,Chur,3942,2021-01-01,NA,3901,Chur
+5422,Aubonne,3943,2021-01-01,NA,5422,Aubonne
+6037,Val de Bagnes,3944,2021-01-01,NA,6037,Val de Bagnes
+6136,Martigny,3945,2021-01-01,NA,6136,Martigny
+6254,Noble-Contrée,3946,2021-01-01,NA,6254,Noble-Contrée
+6458,Neuchâtel,3947,2021-01-01,NA,6458,Neuchâtel
+6436,Le Locle,3948,2021-01-01,NA,6436,Le Locle
+329,Langenthal,3949,2021-01-01,NA,329,Langenthal
+409,Hindelbank,3950,2021-01-01,NA,409,Hindelbank
+879,Riggisberg,3951,2021-01-01,NA,879,Riggisberg
+5713,Crans (VD),3952,2021-01-01,NA,5713,Crans (VD)
+3871,Klosters,3953,2021-01-01,NA,3871,Klosters
+5239,Tresa,3954,2021-04-18,NA,5239,Tresa
+5656,Hautemorges,3955,2021-07-01,NA,5656,Hautemorges
+5511,Assens,3956,2021-07-01,NA,5511,Assens
+2275,Murten,3957,2022-01-01,NA,2275,Murten
+4185,Böztal,3958,2022-01-01,NA,4185,Böztal
+4324,Zurzach,3959,2022-01-01,NA,4324,Zurzach
+5805,Oron,3960,2022-01-01,NA,5805,Oron
+5892,Blonay - Saint-Légier,3961,2022-01-01,NA,5892,Blonay - Saint-Légier
+5240,Val Mara,3962,2022-04-10,NA,5240,Val Mara
+3112,Schwende-Rüte,3963,2022-05-01,NA,3112,Schwende-Rüte
