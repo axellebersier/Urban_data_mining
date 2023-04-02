@@ -1,0 +1,56 @@
+---
+title: "hclust"
+output: word_document
+date: "2023-04-02"
+---
+```{r}
+library(tidyverse)  # data manipulation
+library(cluster)    # clustering algorithms
+library(factoextra) # clustering visualization
+library(dendextend) # for comparing two dendrograms
+library(readr)
+library(readxl)
+```
+
+```{r}
+df_2020 <- read_csv("data_scales.csv")
+
+w_2020 <- read_excel("data_2020_finale.xlsx")
+w_pop <- w_2020$Population
+w_surf <- w_2020$surface_polygone
+
+w_surf <- ifelse(is.na(w_surf), 1, w_surf)
+```
+
+```{r}
+hc_surf <- hclust(dist(df_2020),"ward.D2",members=w_surf)
+# Cut tree into groups
+sub_grp_s <- cutree(hc_surf, k = 7)
+plot(hc_surf)
+rect.hclust(hc_surf, k=7, border = 2:5)
+```
+
+```{r}
+hc_p <- hclust(dist(df_2020),"ward.D2",members=w_pop)
+
+# Cut tree into groups
+sub_grp_p <- cutree(hc_p, k = 7)
+plot(hc_p)
+rect.hclust(hc_p, k=7, border = 2:5)
+```
+
+
+```{r}
+hc <- hclust(dist(df_2020),"ward.D2")
+
+# Cut tree into groups
+sub_grp <- cutree(hc, k = 7)
+plot(hc)
+rect.hclust(hc, k=7, border = 2:5)
+```
+```{r}
+df_2020$hclust <-sub_grp
+df_2020$hclust_p <-sub_grp_p
+df_2020$hclust_s <-sub_grp_s
+```
+
